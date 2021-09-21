@@ -92,6 +92,12 @@ dependencies {
 
 **Important:** _To add Huawei Ads Kit SDK and Mediation adapter, the native project should be opened with Android Studio._
 
+> **_NOTE:_**  When you build .aab and release it on Google Play store, if you get an error such as " Your App Bundle targets the following unrecognized languages: zz. " Just add this below code to defaultConfig: 
+
+resConfigs "en", "US"
+![image](https://user-images.githubusercontent.com/19581388/134133682-19ffe9a9-25bf-434e-a7fa-3c363becb094.png)
+
+
 # Platforms
 
 ## Native
